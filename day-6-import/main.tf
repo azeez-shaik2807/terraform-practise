@@ -6,9 +6,7 @@ resource "aws_instance" "name" {
   }
 }
 
-resource "aws_s3_bucket" "name" {
-  
-}
+
 
 # terraform import respurce.name id/name
 # terraform import aws_instance.name i-0cd1d77ae558c4257
