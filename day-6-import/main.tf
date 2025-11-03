@@ -8,7 +8,7 @@ resource "aws_instance" "name" {
 
 
 
-# terraform import respurce.name id/name
+# terraform import resource.name id/name
 # terraform import aws_instance.name i-0cd1d77ae558c4257
 # terraform import aws_s3_bucket.name bucket-name
 
